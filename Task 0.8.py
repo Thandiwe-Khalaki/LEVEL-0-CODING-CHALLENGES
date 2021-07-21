@@ -4,13 +4,16 @@ def number_to_time(number):
     minutes = number % 60
     
     if hours < 1 and minutes < 1:
-        return (str(hours) + " hour, " + str(minutes) + " minute")
+       print((str(hours) + " hour, " + str(minutes) + " minute"))
     elif hours <= 1:
-        return (str(hours) + " hour, " + str(minutes) + " minutes")
+        print((str(hours) + " hour, " + str(minutes) + " minutes"))
     elif minutes <= 1:
-        return (str(hours) + " hours, " + str(minutes) + " minute")
+        print((str(hours) + " hours, " + str(minutes) + " minute"))
     else:
-        return (str(hours) + " hours, " + str(minutes) + " minutes")
+        print((str(hours) + " hours, " + str(minutes) + " minutes"))
 
 
-print(number_to_time(133))
+number_to_time(2)
+number_to_time(71)
+number_to_time(173)
+number_to_time(0)

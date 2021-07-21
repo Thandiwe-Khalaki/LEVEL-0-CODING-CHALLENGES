@@ -4,7 +4,5 @@ def fahrenheit_to_celsius(number):
 def celsius_to_fahrenheit(number):
     print(number * (9/5) + 32)
 
-
-
 fahrenheit_to_celsius(0)
 celsius_to_fahrenheit(0)

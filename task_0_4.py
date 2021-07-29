@@ -1,8 +1,8 @@
 def even_or_odd(number):
     if number % 2:
-        return "odd"
+        print("odd")
     else:
-        return "even"
+        print("even")
 
+even_or_odd(78)
 
-print(even_or_odd(78))

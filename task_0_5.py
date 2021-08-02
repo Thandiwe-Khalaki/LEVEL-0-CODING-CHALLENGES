@@ -1,6 +1,6 @@
-def area_triangle(a, b, c):
-    s = (a + b + c) / 2
-    print((s * (s - a) * (s - b) * (s - c)) ** 0.5)
+def area_triangle(side_a, side_b, side_c):
+    sides = (side_a + side_b + side_c) / 2
+    print((sides * (sides - side_a) * (sides - side_b) * (sides - side_c)) ** 0.5)
 
 
 

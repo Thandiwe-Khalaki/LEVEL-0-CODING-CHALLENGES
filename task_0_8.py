@@ -7,7 +7,7 @@ def number_to_time(number):
         print(f"{hours} hours, {minutes} minutes")
     elif hours < 2 and minutes > 1:
         print(f"{hours} hour, {minutes} minutes")
-    elif hours == 0 and minutes == 0:
+    elif hours == 0 or minutes == 0:
         print(f"{hours} hours, {minutes} minutes")
     elif hours > 1 and minutes < 2:
         print(f"{hours} hours, {minutes} minute")
@@ -17,7 +17,7 @@ def number_to_time(number):
 
 
 def main():
-    number_to_time(0)
+    number_to_time(60)
 
 if __name__ == "__main__":
     main()

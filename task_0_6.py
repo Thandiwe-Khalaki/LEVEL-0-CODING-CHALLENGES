@@ -6,4 +6,9 @@ def maximum_number(*args):
     print(biggest_number)
 
 
-maximum_number(102.03, 11115555, 108 ** 2, 1000000)
+
+def main():
+    maximum_number(102.03, 11115555, 108 ** 2, 1000000)
+
+if __name__ == "__main__":
+    main()

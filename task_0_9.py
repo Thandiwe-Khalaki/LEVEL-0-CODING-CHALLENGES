@@ -8,4 +8,9 @@ def string_to_vowel(word):
     print("Vowels: " + ", ".join(vowels))
 
 
-string_to_vowel("Thandiwe Khalaki")
+
+def main():
+    string_to_vowel("Thandiwe Khalaki")
+
+if __name__ == "__main__":
+    main()

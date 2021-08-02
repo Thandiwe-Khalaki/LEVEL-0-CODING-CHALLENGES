@@ -8,4 +8,8 @@ def common_letters(first_word, second_word):
     print("Common letters: " + ", ".join(common))
 
 
-common_letters("Eckard", "Berry")
+def main():
+    common_letters("Eckard", "Berry")
+
+if __name__ == "__main__":
+    main()

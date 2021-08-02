@@ -6,5 +6,10 @@ def celsius_to_fahrenheit(number):
     print(number * (9 / 5) + 32)
 
 
-fahrenheit_to_celsius(0)
-celsius_to_fahrenheit(0)
+
+def main():
+    fahrenheit_to_celsius(0)
+    celsius_to_fahrenheit(0)
+
+if __name__ == "__main__":
+    main()

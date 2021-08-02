@@ -3,4 +3,10 @@ def area_triangle(a, b, c):
     print((s * (s - a) * (s - b) * (s - c)) ** 0.5)
 
 
-area_triangle(5, 6, 9)
+
+
+def main():
+    area_triangle(5, 6, 9)
+
+if __name__ == "__main__":
+    main()

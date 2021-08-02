@@ -15,4 +15,9 @@ def number_to_time(number):
         print(f"{hours} hour, {minutes} minute")
 
 
-number_to_time(0)
+
+def main():
+    number_to_time(0)
+
+if __name__ == "__main__":
+    main()

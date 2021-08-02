@@ -4,5 +4,10 @@ def even_or_odd(number):
     else:
         print("even")
 
-even_or_odd(78)
 
+
+def main():
+    even_or_odd(78)
+
+if __name__ == "__main__":
+    main()

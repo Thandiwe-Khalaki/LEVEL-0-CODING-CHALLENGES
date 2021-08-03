@@ -1,25 +1,14 @@
 def number_to_time(number):
+    minute = int(number % 60)
+    hour = int(number // 60)
 
-    hours = int(number / 60)
-    minutes = number % 60
-
-    if hours > 1 and minutes > 1:
-        print(f"{hours} hours, {minutes} minutes")
-    elif hours < 2 and minutes > 1:
-        print(f"{hours} hour, {minutes} minutes")
-    elif hours == 0 and minutes == 0:
-        print(f"{hours} hours, {minutes} minutes")
-    elif hours == 1 and minutes == 1:
-        print(f"{hours} hour, {minutes} minute")
-    elif hours > 1 and minutes < 2:
-        print(f"{hours} hours, {minutes} minutes")
-    else:
-        print(f"{hours} hour, {minutes} minutes")
-
+    minutes = "minute" if (minute == 1) else "minutes"
+    hours = "hours" if (hour == 1) else "hours"
+    print(f"{int(number//60)} {hours}, {int(number%60)} {minutes}")
 
 
 def main():
-    number_to_time(133)
+    number_to_time(360)
 
 if __name__ == "__main__":
     main()

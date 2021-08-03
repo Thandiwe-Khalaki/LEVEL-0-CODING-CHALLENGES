@@ -12,14 +12,14 @@ def number_to_time(number):
     elif hours == 1 and minutes == 1:
         print(f"{hours} hour, {minutes} minute")
     elif hours > 1 and minutes < 2:
-        print(f"{hours} hours, {minutes} minute")
+        print(f"{hours} hours, {minutes} minutes")
     else:
         print(f"{hours} hour, {minutes} minutes")
 
 
 
 def main():
-    number_to_time(60)
+    number_to_time(133)
 
 if __name__ == "__main__":
     main()
